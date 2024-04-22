@@ -10,4 +10,7 @@ class PageHomeController extends Controller
     public function anasayfa(){
         return view('frontend.pages.index');
     }
+    public function urunler(){
+        return view('frontend.pages.products');
+    }
 }

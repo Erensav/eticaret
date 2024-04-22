@@ -24,4 +24,6 @@ Route::get('/hakkimizda', [PageController::class,'hakkimizda'])->name('hakkimizd
 
 Route::get('/iletisim', [PageController::class,'iletisim'])->name('iletisim');
 
+Route::get('/Sepet', [PageController::class,'card'])->name('sepet');
+
 
